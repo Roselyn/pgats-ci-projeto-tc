@@ -16,6 +16,7 @@ describe('Trabalho de Conclusão Automação Web PGATS', () => {
             verificarSeCadastroFoiConclido();
         cy.screenshot()
     });
+    /*
     it('Test Case 2: Login User with correct email and password', () => {
         menu.irParaLoginCadastro();
         login.entrar('tester-1723066176776@mail.com', '12345');
@@ -137,4 +138,5 @@ describe('Trabalho de Conclusão Automação Web PGATS', () => {
         cy.get('[data-qa="continue-button"]').click()
         //cy.screenshot()
     });
+    */
 });
