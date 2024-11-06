@@ -39,7 +39,6 @@ describe('Trabalho de Conclusão Automação Web PGATS', () => {
         cy.url().should('contain', 'login')
         cy.get('h2').contains("Login to your account").should("be.visible");
     });
-    /*
     it('Test Case 5: Register User with existing email', () => {
         menu.irParaLoginCadastro();
         // assert - verificacao da saída do teste / comportamento esperado - Signup
@@ -138,5 +137,4 @@ describe('Trabalho de Conclusão Automação Web PGATS', () => {
         cy.get('[data-qa="continue-button"]').click()
         //cy.screenshot()
     });
-    */
 });
